@@ -1,0 +1,30 @@
+Leilao Dao (Alura\Leilao\Tests\Integration\Dao\LeilaoDao)
+ [x] Busca leiloes nao finalizados with data set #0
+ [x] Busca leiloes finalizados with data set #0
+
+Rest (Alura\Leilao\Tests\Integration\Web\Rest)
+ [ ] Api rest deve retornar array de leiloes
+
+Leilao (Alura\Leilao\Tests\Unit\Domain\Leilao)
+ [x] Propor lance em leilao finalizado deve lancar excecao
+ [x] Propor lances em leilao deve funcionar with data set #0
+ [x] Propor lances em leilao deve funcionar with data set #1
+ [x] Mesmo usuario nao pode propor dois lances seguidos
+
+Avaliador (Alura\Leilao\Tests\Unit\Service\Avaliador)
+ [x] Avaliador deve achar maior valor with data set #0
+ [x] Avaliador deve achar maior valor with data set #1
+ [x] Avaliador deve achar maior valor with data set #2
+ [x] Avaliador deve achar menor valor with data set #0
+ [x] Avaliador deve achar menor valor with data set #1
+ [x] Avaliador deve achar menor valor with data set #2
+ [x] Avaliador deve ordenar os 3 lances with data set #0
+ [x] Avaliador deve ordenar os 3 lances with data set #1
+ [x] Avaliador deve ordenar os 3 lances with data set #2
+ [x] Avaliador deve retornar os maiores lances disponiveis
+
+Encerrador (Alura\Leilao\Tests\Unit\Service\Encerrador)
+ [x] Leiloes com mais de uma semana devem ser encerrados
+ [x] Deve continuar o processamento ao encontrar erro ao enviar email
+ [x] So deve enviar leilao por email apos finalizado
+
